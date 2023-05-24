@@ -1,0 +1,34 @@
+/* Box-sizing border-box */
+/* * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; margin: 0; direction: rtl;} */
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/IRANSansWeb.eot');
+	src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}  
+
+body {
+  font-family: IRANSans !important ;
+}
+.head{
+  color: rgb(133, 133, 133)!important;
+  background-color: rgb(51, 51, 51)!important;
+}
+.serch{
+  margin-bottom: 0px;
+  margin-right: 50px;
+}
+.mard{
+  margin-right: 35px;
+}
+.ax{
+  border: none;
+  
+}
+.card-text{
+  align-items: end!important;
+}
